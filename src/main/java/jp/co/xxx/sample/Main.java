@@ -13,6 +13,6 @@ public class Main {
             @Override protected void configure() {}
         });
         injector.getInstance(TestCreator.class).getTester(ExeLabel.SAMPLE1).test(true);
-        injector.getInstance(TestCreator.class).getTester(ExeLabel.SAMPLE2).test(false);
+//        injector.getInstance(TestCreator.class).getTester(ExeLabel.SAMPLE2).test(false);
     }
 }
